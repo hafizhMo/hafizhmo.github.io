@@ -1,2 +1,3 @@
-# hafizhmo.github.io
-Portofolio Website
+# [hafizhmo.github.io][website]
+
+[website]: https://hafizhmo.github.io/
