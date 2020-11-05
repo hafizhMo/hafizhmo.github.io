@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Inter Demi';
+	src: url(assets/Inter-SemiBold-slnt=0.ttf);
+}
+@font-face {
+	font-family: 'Inter Bold';
+	src: url(assets/Inter-Bold-slnt=0.ttf);
+}
+@font-face {
+	font-family: 'Inter Black';
+	src: url(assets/Inter-Black-slnt=0.ttf);
+}
+@font-face {
+	font-family: 'Inter Light';
+	src: url(assets/Inter-Light-slnt=0.ttf);
+}
+@font-face {
+	font-family: 'Inter Regular';
+	src: url(assets/Inter-Regular-slnt=0.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#head {
+    width: 90%;
+    margin: 40px auto 0px;
+}
+
+#name {
+    font-family: "Inter Bold";
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#navigation {
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+}
+#navigation a:hover {
+	opacity: 1;
+}
+
+#hi {
+	text-decoration: none;
+	color: #FFF;
+	opacity: 1;
+	margin-right: 0px!important;
+	font-family: "Inter Regular";
+	transition: all .3s cubic-bezier(.05,.03,.35,1);
+	position: relative;
+	display: inline-block;
+}
+
+#links a {
+	font-family: "Inter Regular";
+	color: #FFF;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 60px;
+	opacity: .5;
+	transition: all .3s cubic-bezier(.05,.03,.35,1);
+}
+
+#line {
+    width: 100%;
+    background-color: rgba(255,255,255,.3);
+    height: 1px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#highlight {
+    right: 0;
+	height: 4px;
+	position: absolute;
+	background: linear-gradient(90.68deg, #39dfc9 0.26%, #4533e5 102.37%);
+	width: 180px;
+	margin-top: -1px;
+}
+
+#top {
+    width: 90%;
+    margin: 100px auto 0px;
+	text-align: center;
+}
+
+#top p{
+    font-family: "Inter Regular";
+    color: #FFF;
+    font-size: 12px;
+}
+
+#top img{
+    opacity: 50%;
+}
