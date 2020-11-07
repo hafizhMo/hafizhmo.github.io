@@ -85,17 +85,84 @@ body {
 }
 
 #top {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 100px;
+}
+
+h1 {
+	color: #FFF;
+	font-family: "Inter Light";
+	font-weight: 100;
+	font-size: 22px;
+	width: 800px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+h1 span, h1 a {
+	font-family: "Inter Demi";
+}
+h1 a {
+	text-decoration: none;
+	color: #FFF;
+	position: relative;
+	display: inline-block;
+	transition: all .3s cubic-bezier(.05,.03,.35,1);
+}
+h1 a:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: #FFF;
+	display: block;
+	opacity: .3;
+	transition: all .3s cubic-bezier(.05,.03,.35,1);
+}
+h1 a:hover {
+	color: rgba(255,255,255,.5);
+}
+h1 a:hover:after {
+	margin-top: 5px;
+}
+h2 {
+	color: rgba(255,255,255,.8);
+	font-weight: 100;
+	font-family: "Inter Light";
+	font-size: 15px;
+	width: 900px;
+	line-height: 35px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+h2 span {
+	font-family: "Inter Demi";
+	color: rgba(255,255,255,1);
+}
+
+#section {
     width: 90%;
     margin: 100px auto 0px;
 	text-align: center;
 }
 
-#top p{
+#section p{
     font-family: "Inter Regular";
     color: #FFF;
     font-size: 12px;
 }
 
-#top img{
+#section img{
     opacity: 50%;
+}
+
+hr {
+	border: 0px;
+	outline: 0px;
+	height: 1px;
+	background-color: rgba(255,255,255,.3);
+	margin-top: 15px;
+	margin-bottom: 40px;
 }
