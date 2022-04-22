@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HafizhMo - Mobile Developer</title>
+    <meta name="title" content="HafizhMo - Developer & UI/UX Designer">
+    <meta name="description" content="Hafizh is a Designer, Front-end, and Android Developer. He is love Dhea Angelia and any things that's has corellations with creativity.">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head> 
+<body>
+    <header>
+        <nav class="flex items-center justify-between p-6 container mx-auto">
+            <a href="#">
+                <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M27,23.09V13.5a1,1,0,0,0-2,0v10a1,1,0,0,0,.29.71l.3.29H20.41l.3-.29A1,1,0,0,0,21,23.5v-10a1,1,0,0,0-1.92-.38l-4.6,11L7.91,10.08A1.08,1.08,0,0,0,7.8,9.9L6,7.5h4.38L15.11,17a1,1,0,0,0,.93.55,1,1,0,0,0,.89-.63L20.68,7.5h4.91l-.3.29A1,1,0,0,0,25,8.5v1a1,1,0,0,0,2,0V8.91l1.71-1.7a1,1,0,0,0,.21-1.09A1,1,0,0,0,28,5.5H20a1,1,0,0,0-.93.63L15.9,14.06l-4-8A1,1,0,0,0,11,5.5H4a1,1,0,0,0-.89.55,1,1,0,0,0,.09,1L6.14,11l.36.77V20.5L3.2,24.9A1,1,0,0,0,3.11,26,1,1,0,0,0,4,26.5h7a1,1,0,0,0,.89-.55,1,1,0,0,0-.09-1.05L8.5,20.5V16.08l4.59,9.84a1,1,0,0,0,.91.58h1a1,1,0,0,0,.92-.62L19,18.5v4.59l-1.71,1.7a1,1,0,0,0-.21,1.09,1,1,0,0,0,.92.62H28a1,1,0,0,0,.92-.62,1,1,0,0,0-.21-1.09ZM6,24.5l1.5-2,1.5,2Z" data-name="medium news article m"/></svg>
+            </a>
+            <div class="text-lg text-gray-600 hidden lg:flex">
+                <a href="#" class="block mt-4 lg:inline-block text-teal-600 lg:mt-0 mr-10">Home</a>
+                <a href="#" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">Services</a>
+                <a href="#" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">Portofolio</a>
+                <a href="#" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">Company</a>
+                <a href="#" class="block mt-4 lg:inline-block hover:text-gray-700 lg:mt-0 mr-10">Contact</a>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-5 lg:mr-0">
+                    <button class="py-2 px-6 rounded-md text-gray-600 hover:text-gray-700 hover:bg-gray-100 text-lg">Sign in</button>
+                    <button class="py-2 px-6 bg-teal-500 hover:bg-teal-600 rounded-md text-white text-lg">Sign up</button>
+                </div>
+                <div class="block lg:hidden">
+                    <button class="flex items-center px-4 py-3 border rounded text-teal-500 border-teal-500 focus:outline-none">
+                        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-12 lg:mt-32">
+        <section class="container mx-auto px-6">
+            <div class="w-full lg:flex items-center">
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-md lg:text-2xl text-gray-600">Market Intelligence Solutions to</h2>
+                    <h1 class="text-5xl lg:text-6xl font-bold text-teal-600 mb-2 lg:mb-6">Win your market</h1>
+                    <p class="text-md lg:text-xl font-light text-gray-800 mb-8">Powerful analytics tools for your business. See the exact keywords for which your competitors rank in organic search and the amount of traffic driven by each of them.</p>
+                </div>
+                <div class="w-full lg:w-1/2 lg:pl-24">
+                    <form action="#" class="bg-gray-100 shadow-sm rounded-md p-8">
+                        <div class="mb-6">
+                            <label for="name" class="mb-3 block text-gray-700">Full name:</label>
+                            <input type="text" id="name" class="bg-white rounded-md border border-gray-200 p-3 focus:outline-none w-full" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="mb-3 block text-gray-700">Email address:</label>
+                            <input type="email" id="email" class="bg-white rounded-md border border-gray-200 p-3 focus:outline-none w-full" placeholder="john.doe@company.com" required>
+                        </div>
+                        <div class="mb-8">
+                            <label for="company_size" class="mb-3 block text-gray-700">Company size:</label>
+                            <select id="company_size" class="bg-white rounded-md border border-gray-200 p-3 focus:outline-none w-full" required>
+                                <option value="">Select an option</option>
+                                <option value="1">1-10</option>
+                                <option value="2">10-50</option>
+                                <option value="3">50-100</option>
+                                <option value="4">100+</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="py-3 px-12 bg-teal-500 hover:bg-teal-600 mr-5 rounded-md text-white text-lg focus:outline-none w-full">Request Demo</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
